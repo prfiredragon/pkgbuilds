@@ -1,0 +1,5 @@
+makepkg --printsrcinfo > .SRCINFO
+git add PKGBUILD .SRCINFO omada-controller.install
+git commit -m "5.14.32.2 rev 6"
+git push omada-controller-rxy
+
